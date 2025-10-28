@@ -6,7 +6,6 @@ end)
 local selectedPed = nil
 local previewPed = nil
 
--- Abrir menú principal de Peds
 function OpenPedMenu()
     MenuData.CloseAll()
 
@@ -44,7 +43,6 @@ function OpenPedMenu()
     end)
 end
 
--- Submenú por categoría
 function OpenPedSubMenu(categoryName)
     local pedList = Config.PedList[categoryName]
     if not pedList or #pedList == 0 then return end
@@ -79,7 +77,6 @@ function OpenPedSubMenu(categoryName)
     end)
 end
 
--- Mostrar Peds propios
 RegisterNetEvent("rs_pedmenu:returnMyPeds")
 AddEventHandler("rs_pedmenu:returnMyPeds", function(peds)
     local elements = {}
@@ -109,7 +106,6 @@ AddEventHandler("rs_pedmenu:returnMyPeds", function(peds)
     end)
 end)
 
--- Previsualización de ped
 function PrevisualizarPed(ped)
     local playerPed = PlayerPedId()
     local playerCoords = GetEntityCoords(playerPed)
@@ -161,7 +157,6 @@ function ClosePreviewPed()
     end
 end
 
--- Menú de solicitud de ped al admin
 function OpenPedRequestMenu(ped)
     local elements = {
         {
