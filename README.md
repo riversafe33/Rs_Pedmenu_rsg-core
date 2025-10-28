@@ -16,9 +16,9 @@ Complete Script to Use Peds In-Game
 
 3 - If you wear a bird skin and press space, you can fly, and near the ground, pressing space again makes you land.
 
-The script is already preconfigured, but you can add more peds if you notice any missing in the config.lua.
-
 4 - Pressing R reloads the weapon and unlocks the ped.
+
+The script is already preconfigured, but you can add more peds if you notice any missing in the config.lua.
 
 # ---------------------------------------------------------------- #
 
