@@ -10,9 +10,9 @@ Thank you for your support! ❤️ https://ko-fi.com/riversafe33
 
 Complete Script to Use Peds In-Game
 
-1 - Command /pedmenu to preview peds, submit a request to an admin, and manage the ones you have already been authorized to use.
+1 - Players Command /pedmenu to preview peds, submit a request to an admin, and manage the ones you have already been authorized to use.
 
-2 - Command /pedadmin to accept, reject, or remove a player's ped.
+2 - Admin Command /pedadmin to accept, reject, or remove a player's ped.
 
 3 - If you wear a bird skin and press space, you can fly, and near the ground, pressing space again makes you land.
 
